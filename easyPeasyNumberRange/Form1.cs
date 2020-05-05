@@ -36,7 +36,7 @@ namespace easyPeasyNumberRange
             {
                 start = Convert.ToInt16(startNum.Text);
                 end = Convert.ToInt16(endNum.Text);
-                answerText.Text = " ";
+                answerText.Text = "";
                 for (start = Convert.ToInt16(startNum.Text); start <= end; start++)
                 {
                     answerText.Text += start + ", ";
